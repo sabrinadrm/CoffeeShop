@@ -3,7 +3,9 @@
 {% block title %}Concept{% endblock %}
 
 {% block body %}
-
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('styles/concept.css') }}">
+{% endblock %}
 
 <div class="containerr">
     <img src="{{ asset('image/ban/concept.png') }}" alt="Texte alternatif" class="img-fluid mx-auto d-block" style="width: 90%; border-radius: 60px; "></br>

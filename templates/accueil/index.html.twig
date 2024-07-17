@@ -4,6 +4,10 @@
 
 {% block body %}
 
+{% block stylesheets %}
+  <link rel="stylesheet" href="{{ asset('styles/accueil.css') }}">
+{% endblock %}
+
 <section>
   <div class="ban"> 
       <img src="{{ asset('image/ban/Coffee_shop.png') }}" alt="Texte alternatif" class="img-fluid mx-auto d-block ban-image"> 

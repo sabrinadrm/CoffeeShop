@@ -4,7 +4,9 @@
 
 {% block body %}
 
-
+{% block stylesheets %}
+    <link rel="stylesheet" href="{{ asset('styles/reservation.css') }}">
+{% endblock %}
 
 <div class="header">
     <img src="{{ asset('image/ban/reservation.png') }}" alt="Texte alternatif" class="img-fluid mx-auto d-block" style="width: 90%; border-radius: 60px; ">   <br>
