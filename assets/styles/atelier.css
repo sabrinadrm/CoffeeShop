@@ -1,0 +1,62 @@
+/* Style de base pour le corps */
+body {
+    font-family: Arial, sans-serif; /* Définit la famille de police à Arial */
+    background-color: #ffffff; /* Définit la couleur de fond à blanc */
+    margin: 0; /* Enlève les marges du corps */
+    padding: 20px; /* Ajoute un padding au corps */
+  }
+  
+  /* Style pour la bannière */
+  .ban {
+    position: relative; /* Rend la bannière relative */
+  }
+  
+  .ban-image img {
+    width: 90%; /* Définit la largeur de l'image de bannière à 90% */
+    height: 100%; /* Définit la hauteur de l'image de bannière à 100% */
+    object-fit: cover; /* Fait de l'image une image de couverture */
+    border-radius: 60px; /* Ajoute un rayon de bordure à l'image */
+  }
+  
+  
+  .card-container {
+    display: flex; /* Utilisation de Flexbox pour aligner les cartes sur une seule ligne */
+    justify-content: space-around; /* Répartit l'espace disponible de manière égale autour des cartes */
+    flex-wrap: wrap; /* Permet aux cartes de passer à la ligne si nécessaire */
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 20px); /* Ajuste la largeur des cartes pour qu'elles occupent environ un tiers de l'espace disponible */
+    max-width: 300px; /* Largeur maximale des cartes pour éviter qu'elles ne deviennent trop larges */
+    margin: 10px; /* Espacement entre les cartes */
+    padding: 20px; /* Espacement interne des cartes */
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+  }
+  
+  .card img {
+    max-width: 250px; /* Assure que les images s'ajustent proportionnellement */
+    height: auto;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+  }
+  
+  .card h3 {
+    font-size: 1.5em;
+    margin: 15px 0;
+    color: #333;
+  }
+  
+  .card p {
+    font-size: 1em;
+    line-height: 1.5;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  
+  
+  
+  

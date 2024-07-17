@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Les chats{% endblock %}
+
+{% block body %}
+
+<section>
+    <div class="ban"> 
+        <img src="{{ asset('image/ban/chats.png') }}" alt="Texte alternatif" class="img-fluid mx-auto d-block">
+    </div> 
+</section>
+
+<div class="container">
+    <p class="text-center">Au cœur de notre établissement, vous trouverez des amis à quatre pattes tout aussi accueillants que nos boissons et gourmandises. Chez La Cour des Chats, nous avons le plaisir d'accueillir une joyeuse bande de félins, prêts à vous offrir compagnie et câlins tout au long de votre visite </p>
+</div>
+<hr class="separator">
+
+<section>
+    <div class="container">
+        <h3 class="text-center">Rencontrez nos Adorables Compagnons</h3>
+        <p>Nos chats résidents sont de véritables stars de notre bar. Amicaux, curieux et toujours prêts à recevoir des caresses, ils ajoutent une touche chaleureuse et ludique à notre atmosphère. Que vous soyez amateur de ronronnements apaisants ou simplement en quête d'un moment de détente entouré de douceur, nos chats sont là pour vous accueillir à bras (ou plutôt, à pattes) ouverts.</p>
+    </div>
+    <div class="container">
+        <div class="image-container">
+            <img src="{{ asset('image/chats/lila.png') }}" alt="Image 1">
+            <img src="{{ asset('image/chats/leon.png') }}" alt="Image 2">
+            <img src="{{ asset('image/chats/Topaze.png') }}" alt="topaze">
+            <div class="spacer"></div>
+            <img src="{{ asset('image/chats/titine.png') }}" alt="titine">
+            <img src="{{ asset('image/chats/Tchoupi.png') }}" alt="tchoupi">
+            <img src="{{ asset('image/chats/Thanos.png') }}" alt="thanos">
+        </div>
+    </div><br>
+
+</section>
+
+<section>
+    <div class="container">
+        <div class="card">
+            <h2>Des Chats à Adopter</h2>
+            <div class="details" id="details-1">
+                <p>Nous croyons en l'importance de donner une seconde chance aux animaux de compagnie. C'est pourquoi tous nos chats résidents sont disponibles à l'adoption. N'hésitez pas à vous renseigner auprès de notre équipe sur le processus d'adoption. Non seulement vous trouverez un compagnon fidèle et affectueux, mais vous offrirez également une nouvelle vie à un chat qui le mérite.</p>
+            </div>
+        </div>
+        <div class="card">
+            <h2>Engagez-vous à Nos Côtés</h2>
+            <div class="details" id="details-2">
+                <p>En adoptant l'un de nos chats résidents, vous faites bien plus que trouver un nouvel ami à poils. Vous contribuez également à soutenir notre engagement envers le bien-être animal. Chez La Cour des Chats, nous sommes fiers de jouer un rôle dans la sensibilisation à l'adoption responsableet à la protection des animaux de compagnie.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+{% endblock %}
